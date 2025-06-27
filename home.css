@@ -79,8 +79,11 @@ strong {
 .section-2 {
      background-color: wheat;
      background-size: cover;
-     margin: 0px;
-     
+     margin-top: 25px;
+     width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 h2 {
@@ -103,17 +106,18 @@ h2 {
 .section-3 {
      display: flex;
      justify-content: center;
-
 }
 
-          .container {
-               margin-top: 100px;
+.container {
+     margin-top: 40px;
      display: flex;
      justify-content: space-between;
      border: 7px solid rgb(160, 223, 223);
      width: 400px;
      background-color: rgb(160, 223, 223);
      border-radius: 10px;
+     padding-left: 10px;
+     padding-right: 10px;
 }
 
 .excel-details {
@@ -128,6 +132,6 @@ h5 {
      font-weight: 100px;
 }
 h6, h4 { 
-font-weight: bold;
-font-size: large;
+ font-weight: bold;
+ font-size: large;
 }
