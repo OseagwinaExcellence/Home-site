@@ -1,6 +1,6 @@
 body {
      font-family: "Happy Monkey";
-     margin: 0;
+     margin: ;
      padding: 0;
 }
 
@@ -11,11 +11,12 @@ body {
      justify-content: center;
      align-items: center;
      background-image: url(./images/Uni-1.jpg);
-     background-size: cover;
+     background-size: 900px;
+     background-position: cover;
+     background-repeat: no-repeat;
      margin-top: 1px;
      width: 1300px;
 }
-
 
 .section-1-para, .section-1-h1 {
      text-align: center;
@@ -60,7 +61,6 @@ ul {
      display: flex;
      list-style: none;
      justify-content: space-evenly;
-
 }
 
 strong, span {
@@ -105,7 +105,6 @@ h2 {
      padding-left: 5px;
 }
 
-
 .section-3 {
      display: flex;
      justify-content: center;
@@ -126,14 +125,14 @@ h2 {
 .excel-details {
      color: rgb(69, 107, 93);
      padding-top: 0px;
-     padding-left: 10px;
-     
+     padding-left: 10px;    
 }
 
 h5 {
      font-style: italic;
      font-weight: 100px;
 }
+
 h6, h4 { 
      font-weight: bold;
      font-size: large;
